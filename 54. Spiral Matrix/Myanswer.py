@@ -14,7 +14,6 @@ class Solution(object):
         :rtype: List[int]
         """
         status = 1
-        m, n = len(matrix), len(matrix[0])
         d = deque(matrix)
 
         temp = []
